@@ -9,19 +9,40 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
-  }
+    "@types/node": "^20.19.0",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.3.1",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@7.0.0+sha512.e678d54a613f4b3e9ca328a44ba823c282966b1c6c27a058ea32f56aac2f9c4a4d51f15e7676c7aa2777699e3626ccce15a48ecf7422a5c7e9e1e8b6d86fc912",
+  "description": "一个简单的图片URL排序工具，支持拖拽排序和文件导入导出。",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tsuki7u/image-sorter-app.git"
+  },
+  "keywords": [
+    "SHA256:DJBE6xJfrii9R0go0yemq0mzxlFIkRrInx7h2p53cdg"
+  ],
+  "author": "Tsuki7u",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsuki7u/image-sorter-app/issues"
+  },
+  "homepage": "https://github.com/Tsuki7u/image-sorter-app#readme"
 }

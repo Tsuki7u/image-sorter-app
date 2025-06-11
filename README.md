@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 图片排序工具
 
-## Getting Started
+一个简单的图片URL排序工具，支持拖拽排序和文件导入导出。
 
-First, run the development server:
+## 功能特性
 
+- 📁 支持上传 .txt 文件（每行一个图片URL）
+- 🖱️ 拖拽排序图片
+- 📤 导出排序结果
+- 🖼️ 图片预览
+- 🔄 自动加载默认文件
+
+## 快速开始
+
+1. 安装依赖：
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. 启动开发服务器：
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. 打开浏览器访问 [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 使用方法
 
-## Learn More
+1. 准备一个 .txt 文件，每行包含一个图片URL
+2. 上传文件或将文件命名为 `output.txt` 放在 `public` 目录下
+3. 拖拽图片进行排序
+4. 点击"导出排序结果"保存新的顺序
 
-To learn more about Next.js, take a look at the following resources:
+## 技术栈
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- @dnd-kit (拖拽功能)
